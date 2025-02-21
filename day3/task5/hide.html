@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+    <button id="mybutton" onclick="update()">hide</button>
+</header>
+    <img id="myImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGgTjrTf8lTcQe2NG2HYf5M6VKpt1u8tTQwA&s" width="400px">
+
+</body>
+</html>
+<script>
+    const mybutton = document.getElementById("mybutton");
+const myImg = document.getElementById("myImg");
+
+mybutton.addEventListener("click", function () {
+    if (myImg.style.display === "none") {
+        myImg.style.display = "block";
+        mybutton.textContent = "Hide";
+    } else {
+        myImg.style.display = "none";
+        mybutton.textContent = "Show";
+    }
+});
+</script>
