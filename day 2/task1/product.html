@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone SE 2022 - Product Showcase</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffffff, #f1f1f1);
+            text-align: center;
+            transition: background 1s ease-in-out;
+        }
+        
+        /* Header */
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform:lowercase;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.33s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.022);
+        }
+
+        /* Image */
+        .product-image {
+            width: 60%;
+            border-radius: 8px;
+            transition: transform 0.33s ease-in-out;
+        }
+
+        .product-image:hover {
+            transform: scale(0.1);
+        }
+
+        /* Price */
+        .price {
+            font-size: 24px;
+            color: #27ae60;
+            font-weight: bold;
+            margin: 15px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Features */
+        .features {
+            text-align: left;
+            padding: 0 20px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+        }
+
+        .features li::before {
+            content: "✔";
+            color: #27ae60;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        /* Buy Button */
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #0071E3;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background: #005bb5;
+            box-shadow: 0 0 15px rgba(0, 113, 227, 0.5);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #222;
+            color: white;
+            font-size: 14px;
+        }
+
+        /* Keyframes Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        iPhone SE (2022) - Power in Your Hands
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Apple iPhone SE (2022)</h2>
+            <img class="product-image" src="iphone-se-2022.jpg" alt="iPhone SE 2022"> 
+            <!-- Replace with actual image URL -->
+            <p>The **Apple iPhone SE (2022)** delivers lightning-fast performance with the **A15 Bionic chip**, 5G support, and the classic **Home Button with Touch ID**.</p>
+        </section>
+
+        <article class="features">
+            <h3>Key Features:</h3>
+            <ul>
+                <li>4.7-inch Retina HD Display</li>
+                <li>A15 Bionic Chip (Same as iPhone 13)</li>
+                <li>12MP Rear Camera with Smart HDR 4</li>
+                <li>7MP Front Camera with Portrait Mode</li>
+                <li>5G Connectivity for Super-Fast Internet</li>
+                <li>Battery Life: Up to 15 hours video playback</li>
+                <li>Touch ID & Home Button for Secure Unlock</li>
+                <li>Water & Dust Resistant (IP67 Rated)</li>
+                <li>iOS 15 (Upgradeable to iOS 17+)</li>
+                <li>Available in Midnight, Starlight, and (PRODUCT)RED</li>
+            </ul>
+        </article>
+
+        <section class="price">
+            Price: ₹43,900
+        </section>
+
+        <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Apple Store. All Rights Reserved.
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Exploring the Beauty of Nature</h1>
+        <p>By Gokul | February 18, 2025</p>
+    </header>
+
+    <section class="content">
+        <p>
+            Nature is an endless source of beauty and inspiration. Whether it's a serene forest or a rugged mountain peak, the natural world offers breathtaking landscapes that leave a lasting impression on our hearts and minds. Each element, from the smallest flower to the grandest waterfall, plays its part in creating a harmonious environment.
+        </p>
+        <p>
+            As we spend more time in nature, we develop a deeper understanding of its importance to our well-being. Studies have shown that being surrounded by greenery can reduce stress levels and improve mental clarity. Nature has a way of reconnecting us with ourselves and the world around us.
+        </p>
+        <p>
+            Furthermore, preserving nature is critical for the survival of future generations. Conservation efforts play a pivotal role in maintaining biodiversity and ensuring that the beauty of nature remains intact for years to come. By taking small steps to protect our environment, we contribute to a larger global effort.
+        </p>
+    </section>
+</body>
+</html>
+<style>
+/* General Styles */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: wheat;
+    position: absolute;
+}
+header{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    margin: 0;
+    font-style: italic;
+}
+p{
+    margin: 0;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
+</style>
