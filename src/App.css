@@ -1,57 +1,46 @@
 .App {
   text-align: center;
 }
-img{
-  cursor: pointer;
-  border-radius: 10px;
-}
-img:hover{
-  transition: transform 0.3s ease-out-in;
-  transform: scale(1.1);
-}
-.box {
-  width: 400px;
-  margin: 50px auto;
-  padding: 20px;
-  border: 2px solid #333;
-  border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  background-color: #f9f9f9;
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-input {
-  display: block;
-  width: 80%;
-  margin: 10px auto;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-p {
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-strong {
-  color: #007bff;
-}
-
-body {
-  background-image: url("https://cdn.pixabay.com/photo/2022/01/27/14/37/sports-6972298_1280.jpg");
-  background-size: cover;
-  background-position: center;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-}
-.btn{
-  background-color: black;
-  border-radius: 10px;
- 
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+
+  border: 2px solid black;
+  background-color: yellow;
 
 
+}
