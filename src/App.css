@@ -37,10 +37,6 @@
   }
 }
 
-.container{
-
-  border: 2px solid black;
-  background-color: yellow;
-
-
+body{
+  background: linear-gradient(rgb(144, 99, 186),rgb(208, 173, 230))
 }
