@@ -1,0 +1,32 @@
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.dropdown li {
+  cursor: pointer;
+  padding: 8px;
+}
+.weather-card, .day-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+
+body{
+  background-color: bisque;
+ 
+}
