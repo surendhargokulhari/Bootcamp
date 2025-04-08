@@ -1,0 +1,5 @@
+Total Students: 4
+
+Math Average: 85.00
+English Average: 85.00
+Science Average: 86.25
